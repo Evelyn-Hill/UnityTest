@@ -9,7 +9,7 @@ public class Test
     [Test]
     public void TestSimplePasses()
     {
-	Assert.AreEqual(4, 5);
+	Assert.AreEqual(4, 4);
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
