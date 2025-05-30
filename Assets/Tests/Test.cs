@@ -9,9 +9,7 @@ public class Test
     [Test]
     public void TestSimplePasses()
     {
-        // Use the Assert class to test conditions
-        //
-        //
+        ClassicAssert.AreEqual(4, 2 + 2);
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
